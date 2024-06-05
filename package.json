@@ -1,15 +1,18 @@
 {
-  "name": "firebase_cli",
+  "name": "firebase_admin",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Iyarr",
   "license": "ISC",
-  "description": "This project will struct firebase security rule.",
   "dependencies": {
     "firebase-admin": "^12.1.1",
     "firebase-tools": "^13.10.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
   }
 }
